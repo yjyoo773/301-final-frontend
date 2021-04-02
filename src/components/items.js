@@ -5,7 +5,6 @@ import Button from "react-bootstrap/Button";
 
 class Items extends React.Component {
   render() {
-
     return (
       <section>
         <h2>Items...</h2>

@@ -15,7 +15,7 @@ export class AddNewItem extends React.Component {
     const value = e.target.value;
     const formData = this.state.formData;
     formData[field] = value;
-    this.setState({ field });
+    this.setState({ formData });
     // console.log(this.state)
   };
 
